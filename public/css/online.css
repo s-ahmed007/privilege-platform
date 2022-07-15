@@ -1,0 +1,122 @@
+section {
+  padding: 1% 0;
+}
+
+.coupon-box {
+  margin-bottom: 1%;
+}
+
+.brand .row {
+  margin: 0 auto;
+}
+
+.partner_image {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.disc-box {
+  background: #007bff;
+}
+
+.midnight-blue {
+  background: #2c3e50;
+}
+
+.dl {
+  background: #f0f0f0;
+  padding: 30px 0;
+  border-radius: 20px;
+  position: relative;
+}
+
+.dl:before {
+  content: " ";
+  height: 20px;
+  width: 20px;
+  background: #ddd;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  margin-left: -10px;
+}
+
+.dl .brand {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  text-align: center;
+  min-height: 100px;
+}
+
+.brand h4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.dl .discount {
+  min-height: 50px;
+  position: relative;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px 15px 0;
+  color: #f1c40f;
+}
+
+.dl .discount:after {
+  content: " ";
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  position: absolute;
+  bottom: -20px;
+  left: 20%;
+}
+
+.dl .discount.disc-box:after {
+  border-top: 20px solid #007bff;
+}
+
+.dl .discount .type {
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: -30px;
+}
+
+.dl .ends {
+  padding: 18px 15px;
+  color: #f1c40f;
+  margin-bottom: -6px;
+}
+
+.dl .coupon {
+  min-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px 15px;
+}
+
+.dl .coupon a.open-code {
+  color: #f1c40f;
+}
+
+.dl .coupon .code {
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  color: #007bff;
+}
+
+.tnc {
+  font-size: 10px;
+}
+
+.partner_category_type {
+  font-size: 0.7em;
+}

@@ -1,0 +1,776 @@
+.side-menu i {
+	margin-right: 5px
+}
+
+textarea {
+	resize: none
+}
+
+.center {
+	text-align: center
+}
+
+td {
+	vertical-align: middle!important;
+	text-align: center;
+}
+
+th{
+	text-align: center;
+}
+
+.btn-primary,
+.btn-edit {
+	color: white;
+	background-color: #007bff;
+	border: 0;
+	text-align: center;
+	transition: all .5s;
+	cursor: pointer;
+	margin: 5px
+}
+
+.btn-delete {
+	color: white;
+	background-color: red;
+	border: 0;
+	text-align: center;
+	transition: all .5s;
+	cursor: pointer;
+	margin: 5px
+}
+
+.btn-deactivate {
+	color: white;
+	background-color: #ffc579;
+	border: 0;
+	text-align: center;
+	transition: all .5s;
+	cursor: pointer;
+	/* margin: 5px; */
+	/* width: 100px; */
+}
+
+.btn-activate {
+	color: white;
+	background-color: #4ba614;
+	border: 0;
+	text-align: center;
+	transition: all .5s;
+	cursor: pointer;
+	/* margin: 5px; */
+	/* width: 100px; */
+}
+
+.btn-pin {
+	color: white;
+	background-color: #397eb9;
+	border: 0;
+	text-align: center;
+	transition: all .5s;
+	cursor: pointer;
+	margin: 5px
+}
+
+.btn-done {
+	color: white;
+	background-color: #008c00;
+	border: 0;
+	text-align: center;
+	transition: all .5s;
+	cursor: pointer;
+	margin: 5px
+}
+
+.btn-warning {
+	color: white;
+	background-color: #f0ad4e;
+	border: 0;
+	text-align: center;
+	transition: all .5s;
+	cursor: pointer;
+	margin: 5px
+}
+
+.btn-create,
+.btn-all,
+.btn-gold,
+.btn-premium,
+.btn-guest,
+.btn-influencer,
+.btn-b2b2c,
+.btn-spot,
+.btn-nonuser,
+.btn-active,
+.btn-inactive,
+.btn-inactive-trial,
+.btn-inactive-premium,
+.btn-expiring,
+.btn-submit,
+.btn-influencer,
+.btn-expired,
+.btn-recent,
+.btn-trial,
+.btn-upgrade,
+.btn-renew {
+	padding: 10px 10px 10px 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 12px;
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+}
+
+.btn-create {
+	border: 1px solid #007bff;
+	background-color: #007bff;
+}
+
+.btn-all {
+	border: 1px solid #0F9F4F;
+	background-color: #13CE66;
+}
+
+.btn-influencer {
+	border: 1px solid #FF16D1;
+	background-color: #FF49DB;
+}
+
+.btn-b2b2c {
+	border: 1px solid #3364b7;
+	background-color: #337ab7;
+}
+
+.btn-nonuser {
+	border: 1px solid #ff6262;
+	background-color: #ff9a9a;
+}
+
+.btn-submit {
+	border: 1px solid #34740e;
+	background-color: #4ba614;
+}
+
+.btn-recent {
+	border: 1px solid #6a6dd8;
+	background-color: #6a6dd8;
+}
+
+.guest-label,
+.card-label {
+	background-color: #FF7849;
+	padding: 2px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+}
+
+.btn-guest, .btn-inactive {
+	border: 1px solid #FF5216;
+	background-color: #FF7849;
+}
+
+.trial-label {
+	background-color: #FFC82C;
+	padding: 2px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+}
+
+.btn-trial {
+	border: 1px solid #F8B700;
+	background-color: #FFC82C;
+}
+
+.premium-label,
+.qr-label {
+	background-color: #1FB6FF;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-premium {
+	border: 1px solid #009EEB;
+	background-color: #1FB6FF;
+}
+
+
+.admin-label {
+	background-color: #13CE66;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.spot-label {
+	background-color: #8492A6;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-spot {
+	border: 1px solid #009EEB;
+	background-color: #009EEB;
+}
+
+.influencer-label {
+	background-color: #FF49DB;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.renew-label {
+	background-color: #85D7FF;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-renew {
+	border: 1px solid #85D7FF;
+	background-color: #85D7FF;
+}
+
+.upgrade-label {
+	background-color: #009EEB;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-upgrade {
+	border: 1px solid #009EEB;
+	background-color: #009EEB;
+}
+
+.all-label{
+	background-color: #A2CD48;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.new-purchase-label{
+	background-color: #29EB7F;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.manual-label {
+	background-color: red;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.total-label {
+	background-color: #13CE66;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.active-label {
+	background-color: #0F9F4F;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-active {
+	border: 1px solid #0F9F4F;
+	background-color: #0F9F4F;
+}
+
+.inactive-label {
+	background-color: #FF9696;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-inactive-trial,
+.btn-inactive-premium {
+	border: 1px solid #FF9696;
+	background-color: #FF9696;
+}
+
+.expiring-label {
+	background-color: #FF6D6D;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-expiring {
+	border: 1px solid #FF6D6D;
+	background-color: #FF6D6D;
+}
+
+.expired-label {
+	background-color: #FF4949;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.btn-expired {
+	border: 1px solid #FF4949;
+	background-color: #FF4949;
+}
+
+.partner-label {
+	background-color: #592DEA;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.partner-outlet-label {
+	background-color: #7E5BEF;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.partner-offer-label {
+	background-color: #A389F4;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.verified-email-label {
+	background-color: #59dc93;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.completed-profile-label {
+	background-color: #59dc93;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.transactions-label {
+	background-color: #29EB7F;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.reviews-label {
+	background-color: #F8B700;
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.website-label {
+	background-color: rgb(66, 133, 244);
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.android-label {
+	background-color: rgb(219, 68, 55);
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.ios-label {
+	background-color: rgb(244, 180, 0);
+	padding: 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.card-type-trial,
+.card-type-premium,
+.card-type-guest {
+	text-align: center;
+	padding: 2px;
+	color: white;
+	border-radius: 11px;
+	font-weight: bold
+}
+
+.card-type-trial {
+	background-color: #FFC82C;
+}
+
+.card-type-premium {
+	background-color: #1FB6FF;
+}
+
+.card-type-guest {
+	background-color: #FF7849;
+}
+
+.temp-pay {
+	text-align: center;
+	font-weight: bold
+}
+
+.success-d,
+.delete-d,
+.try-d,
+.deactivate-d {
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.success-d {
+	background-color: #4ba614;
+}
+
+.delete-d {
+	background-color: #ff9a9a;
+}
+
+.try-d {
+	background-color: #ffc579;
+}
+
+.deactivate-d {
+	color: white;
+	background-color: #ffc579;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: bold
+}
+
+.address-icon:before,
+.bx bx-phone:before,
+.web-icon:before,
+.card-icon:before,
+.child-icon:before,
+.outdoor-icon:before,
+.smoking-icon:before,
+.wifi-icon:before,
+.info-icon:before,
+.calender-icon:before,
+.chair-icon:before,
+.announce-icon:before,
+.transaction-icon:before,
+.stat-icon:before,
+.gift-icon:before,
+.user-plus-icon:before,
+.quote-o-icon:before,
+.quote-c-icon:before,
+.cross-icon:before,
+.minus-icon:before,
+.check-icon:before,
+.question-icon:before,
+.circle-icon:before,
+.like-icon:before,
+.at-icon:before,
+.discount-icon:before,
+.smile-icon:before,
+.sad-icon:before,
+.eye-close:before,
+.eye-open:before,
+.bell-icon:before,
+.briefcase-icon:before,
+.asterisk-icon:before,
+.arrow-icon:before,
+.cross-c-icon:before,
+.plus-icon:before,
+.img-icon:before,
+.img-icon:before,
+.home-icon:before,
+.bar-icon:before,
+.logout-icon:before,
+.truck-icon:before,
+.money-icon:before,
+.bx bx-time-five:before,
+.user-icon:before,
+.logout-icon:before {
+	font-family: "Font Awesome 5 Pro", Bangla167, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	text-align: center;
+	font-size: 16px
+}
+
+.delete-icon:before {
+	font-family: "Font Awesome 5 Pro", Bangla167, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	text-align: center;
+	font-size: 12px
+}
+
+.address-icon:before {
+	content: "\f3c5"
+}
+
+.bx bx-phone:before {
+	content: "\f095"
+}
+
+.web-icon:before {
+	content: "\f57d"
+}
+
+.card-icon:before {
+	content: "\f09d"
+}
+
+.child-icon:before {
+	content: "\f1ae"
+}
+
+.outdoor-icon:before {
+	content: "\f0e9"
+}
+
+.smoking-icon:before {
+	content: "\f48d"
+}
+
+.wifi-icon:before {
+	content: "\f1eb"
+}
+
+.info-icon:before {
+	content: "\f05a"
+}
+
+.calender-icon:before {
+	content: "\f073"
+}
+
+.chair-icon:before {
+	content: "\f4b8"
+}
+
+.delete-icon:before {
+	content: "\f2ed"
+}
+
+.announce-icon:before {
+	content: "\f0a1"
+}
+
+.transaction-icon:before {
+	content: "\f570"
+}
+
+.stat-icon:before {
+	content: "\f080"
+}
+
+.gift-icon:before {
+	content: "\f06b"
+}
+
+.user-icon:before {
+	content: "\f007"
+}
+
+.user-plus-icon:before {
+	content: "\f234"
+}
+
+.quote-o-icon:before {
+	content: "\f10d"
+}
+
+.quote-c-icon:before {
+	content: "\f10e"
+}
+
+.cross-icon:before {
+	content: "\f00d";
+	color: black
+}
+
+.cross-c-icon {
+	content: "\f057"
+}
+
+.minus-icon:before {
+	content: "\f068"
+}
+
+.plus-icon {
+	content: "\f055"
+}
+
+.check-icon:before {
+	content: "\f00c"
+}
+
+.question-icon:before {
+	content: "\f059"
+}
+
+.like-icon:before {
+	content: "\f164"
+}
+
+.discount-icon:before {
+	content: "\f541"
+}
+
+.bell-icon:before {
+	content: "\f0f3"
+}
+
+.briefcase-icon:before {
+	content: "\f0b1"
+}
+
+.asterisk-icon:before {
+	content: "\f069"
+}
+
+.arrow-icon:before {
+	content: "\f13a"
+}
+
+.circle-icon:before {
+	content: "\f111"
+}
+
+.img-icon:before {
+	content: "\f03e"
+}
+
+.home-icon:before {
+	content: "\f015"
+}
+
+.logout-icon:before {
+	content: "\f2f5"
+}
+
+.bar-icon:before {
+	content: "\f0c9"
+}
+
+.truck-icon:before {
+	content: "\f0d1"
+}
+
+.money-icon:before {
+	content: "\f3d1"
+}
+
+.bx bx-time-five:before {
+	content: "\f017"
+}
+
+.logout-icon:before {
+	content: "\f2f5"
+}
+
+/*Stars*/
+
+.star-f-icon:before {
+	content: "\f005";
+	font-family: "Font Awesome 5 Pro", Bangla167, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.cross-icon-admin:before {
+	font-family: "Font Awesome 5 Pro", Bangla167, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	text-align: center;
+	font-size: 16px;
+	content: "\f00d";
+	color: red;
+}
+
+.star-h-icon:before {
+	content: "\f5c0";
+	font-family: "Font Awesome 5 Pro", Bangla167, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.star-e-icon:before {
+	content: "\f005";
+	font-family: "Font Awesome 5 Pro", Bangla167, sans-serif;
+	font-style: normal;
+}
+
+.activitybox {height: 20px;width: 20px;}
+.red {background-color: red;}
+.limegreen {background-color: limegreen;}
+
+.smile-icon:before {
+	content: "\f118";
+}
+
+.sad-icon:before {
+	content: "\f119";
+}
+
+.eye-close:before {
+	content: "\f070";
+}
+
+.eye-open:before {
+	content: "\f06e";
+}
+
+.modal-header {
+	background-color: #f5f6f7;
+  }
+
+  .cross-icon{
+	  color: black;
+  }
+
+.form-control {
+	border-radius: 5px;
+}
+
+/* media query */
+@media only screen and (max-width: 991px) {
+	.tile_count .tile_stats_count {
+		margin-bottom: 10px;
+		border-bottom: unset;
+	}
+}

@@ -1,0 +1,252 @@
+.logout {
+  color: #fff;
+}
+.logout:hover {
+  color: #dad4d4;
+}
+.logout{
+  position: absolute; right: 0
+  }
+.accepted, .rejected, .expired {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  float: right;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+.accepted{
+  background-color: #449d44;
+}
+.rejected {
+  background-color: #c9302c;
+}
+.expired {
+  background-color: #9a9696;
+}
+.pro_pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.relative_time {
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+.action_btn {
+  float: right;
+  margin: 0 0 0 5px;
+}
+.msg_accept {
+  padding: 15px;
+  background-color: lightseagreen;
+  color: #fff;
+}
+.msg_reject {
+  padding: 15px;
+  background-color: indianred;
+  color: #fff;
+}
+.merchant-profile-tab {
+  text-align: center;
+  margin: 20px;
+}
+.f-m {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.f-ml {
+  font-size: 15px;
+}
+
+.f-xl {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+}
+
+@media screen and (max-width: 580px) {
+  .row {
+    display: block;
+  }
+}
+
+::-moz-selection {
+  background: #007bff;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px gray;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #007bff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #007bff;
+}
+
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+:disabled * {
+  pointer-events: none;
+}
+
+.column {
+  padding: 10px 20px;
+}
+
+.column:not(:last-child){
+  border-bottom: 1px solid lightgrey;
+}
+
+.partner-offer-timings p {
+  display: inline-block;
+  padding-right: 6px;
+  margin-right: 6px;
+  position: relative;
+}
+
+.partner-offer-timings p:after {
+  content: "|";
+  position: absolute;
+  right: -3px;
+  top: 0;
+  color: #999;
+  font-weight: 700;
+}
+
+.partner-offer-timings p:last-child:after {
+  content: "";
+}
+
+.offer-used-partner{
+  padding: 3px 5px;
+    margin-top: 1px;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+* {
+  transition: 0.4s;
+}
+
+.partner-offer-box-l {
+  float: left;
+}
+@media only screen and (max-width: 359px) {
+  .nav-link {
+    padding: 0.1rem 0.5rem;
+  }
+  .list-group-item {
+    text-align: center;
+  }
+  .request-text {
+    display: table-cell;
+  }
+}
+
+.pro_pic{width: 50px; height: 50px; border-radius: 50%}
+.offer_description{font-weight: bold}
+.how-it-works-img img {
+width:100%;
+}
+
+
+.price-card-box{
+	border: 0;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 30px;
+    width: 100%;
+}
+
+.price-card-box-line{
+	-moz-box-align: center;
+    -moz-box-pack: justify;
+    -ms-flex-align: center;
+    -ms-flex-pack: justify;
+    -o-box-align: center;
+    -o-box-pack: justify;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-right: 6px; */
+    /* min-width: 380px; */
+    width: 80%;
+}
+.btn-green {
+  color: #fff;
+  background: rgb(28,194,43);
+  border: none;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  }
+  .btn-green:hover, .btn-green:focus {
+  background-color: #065b1e;
+  color: #fff;
+  }
+
+  /* li:not(:last-child){
+    border-bottom: 1px solid #e4e6f2;
+} */
+.redeemable-point{
+    color: #fff;
+    background: rgb(28,194,43);
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin: 5px;
+}
+
+.center{
+  text-align: center;
+}

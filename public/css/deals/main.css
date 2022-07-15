@@ -1,0 +1,36 @@
+
+.dropdown-menu{
+    top: unset;
+}
+
+.dropdown-box{
+    padding: 0 10px;
+}
+
+.form-inline label{
+    display: inline;
+}
+
+.form-inline .form-group{
+    margin-right: 10px;
+}
+
+.deal-holder-box{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    padding: 0 0 1rem 0;
+  }
+
+
+.deal-buy-btn {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #010483;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 1rem;
+}

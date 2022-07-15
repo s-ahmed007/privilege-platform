@@ -1,0 +1,115 @@
+#outlook a {
+	padding: 0;
+}
+.ReadMsgBody {
+	width: 100%;
+}
+.ExternalClass {
+	width: 100%;
+}
+.ExternalClass * {
+	line-height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+img {
+	border: 0;
+	height: auto;
+	line-height: 100%;
+	outline: none;
+	text-decoration: none;
+}
+p {
+	display: block;
+	margin: 13px 0;
+}
+@media only screen and (min-width: 480px) {
+	.mj-column-per-100 {
+		width: 100% !important;
+		max-width: 100%;
+	}
+}
+@media only screen and (min-width: 480px) {
+	.mj-column-per-100 {
+		width: 100% !important;
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	table.full-width-mobile {
+		width: 100% !important;
+	}
+}
+@media only screen and (max-width: 480px) {
+	td.full-width-mobile {
+		width: auto !important;
+	}
+}
+@media only screen and (min-width: 480px) {
+	.mj-column-per-100 {
+		width: 100% !important;
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	table.full-width-mobile {
+		width: 100% !important;
+	}
+}
+@media only screen and (max-width: 480px) {
+	td.full-width-mobile {
+		width: auto !important;
+	}
+}
+.payment-body {
+	background-color: #F6F6FC;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+.payment-head {
+	font-family: Lato, Helvetica, sans;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 26px;
+	text-align: center;
+	color: #2B2A35;
+}
+.payment-body-t {
+	display: block;
+	margin: 13px 0;
+}
+.signuplogin-btn {
+	border: none;
+	border-radius: 6px;
+	padding: 10px 25px;
+	background: #13CE66;
+	border-collapse: collapse;
+}
+.signuplogin {
+	background: #13CE66;
+	color: #ffffff;
+	font-family: Lato, Helvetica, sans;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 120%;
+	margin: 0;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.payment-try-text{
+text-decoration: underline!important;
+	font-family: Lato, Helvetica, sans;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 120%;
+	margin: 0;
+	text-decoration: none;
+	text-transform: none;
+}

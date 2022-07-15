@@ -1,0 +1,650 @@
+public interface ApiInterface {
+    @GET("avt.json")
+    Call<HomeResponse> getHomeData();
+
+
+    @FormUrlEncoded
+    @POST("api/app/recentlyViewed")
+    Call<List<RBDStats>> getRecentlyViewedPartners(@Field("customer_id") String customer_id);
+
+    @GET("json_offers/{table}")
+    Call<OfferResponse> getOffersPartner(@Path("table") String table, @Query("page") int page);
+
+
+    @GET("json_hotspot/{hotspot}")
+    Call<OfferResponse> getHotspotOffers(@Path("hotspot") String hotspot, @Query("page") int page);
+
+
+    @FormUrlEncoded
+    @POST("login.json")
+    Call<LoginResponse> getLoggedIn(@Field("login_username") String username, @Field("login_password") String password);
+
+
+    @FormUrlEncoded
+    @POST("customer_data.json")
+    Call<LoginResponse> getLoggedInData(@Field("username") String username,
+                                        @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/connect_with_social.json")
+    Call<Social> setSocialAccount(@Field("social_id") String social_id,
+                                  @Field("customer_social_type") String customer_social_type,
+                                  @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/check_phone.json")
+    Call<ServerResponse> isRoyaltyMember(@Field("phone") String username);
+
+
+    @FormUrlEncoded
+    @POST("api/app/customer_sorted_transaction")
+    Call<CustomerTransactionResponse> getCustomerTransaction(@Field("customer_id") String customer_id,
+                                                             @Field("month") Integer month,
+                                                             @Field("year") Integer year,
+                                                             @Query("page") int page);
+
+
+    @FormUrlEncoded
+    @POST("subscribe.json")
+    Call<ServerResponse> setSubscription(@Field("email") String email);
+
+
+    @FormUrlEncoded
+    @POST("unsubscribe.json")
+    Call<ServerResponse> unSetSubscription(@Field("email") String email);
+
+
+    @FormUrlEncoded
+    @POST("like_review.json")
+    Call<ReviewLike> setReviewLike(@Field("review_id") int review_id, @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/like_post.json")
+    Call<PostLike> setPostLike(@Field("post_id") int post_id,
+                               @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("unlike_review.json")
+    Call<ServerResponse> reviewUnlike(@Field("like_id") int like_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/unlike_post.json")
+    Call<ServerResponse> postUnlike(@Field("like_id") int like_id);
+
+
+    @FormUrlEncoded
+    @POST("delete_review.json")
+    Call<ServerResponse> reviewDelete(@Field("review_id") int review_id);
+
+
+    @FormUrlEncoded
+    @POST("make_review.json")
+    Call<Reviews> makeReview(@Header("platform") int platform,
+                             @Field("partner_account_id") int partner_account_id,
+                             @Field("rate_star") float rate_star,
+                             @Field("heading") String heading,
+                             @Field("content") String content,
+                             @Field("customer_id") String customer_id,
+                             @Field("transaction_id") Integer transaction_id,
+                             @Field("review_type") int review_type);
+
+
+    @FormUrlEncoded
+    @POST("make_wish.json")
+    Call<ServerResponse> makeWish(@Field("comment") String comment, @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("edit_customer_data.json")
+    Call<ServerResponse> editCustomerProfile(@Field("username") String username,
+                                             @Field("password") String password,
+                                             @Field("old_password") String old_password,
+                                             @Field("mobile") String mobile,
+                                             @Field("customer_id") String customer_id,
+                                             @Field("image_url") String image_url);
+
+
+    @GET("auto_search.json")
+    Call<SearchResponse> getSearchedPartner(@Query("search") String search);
+
+    @FormUrlEncoded
+    @POST("customer_notifications.json")
+    Call<NotificationResponse> getCustomerNotifications(@Field("customer_id") String customer_id);
+
+    @FormUrlEncoded
+    @POST("api/app/scan_partner")
+    Call<PartnerBranch> getScannedBranch(@Field("encrypted_id") String encrypted_id);
+
+    @FormUrlEncoded
+    @POST("api/app/check_branch_user")
+    Call<BranchUser> checkBranchUser(@Field("pin_code") String pin_code);
+
+    @FormUrlEncoded
+    @POST("api/app/confirm_offer_transaction")
+    Call<OfferTransaction> confirmOffer(@Field("branch_user_id") int branch_user_id,
+                                        @Field("customer_id") String customer_id,
+                                        @Field("offer_id") int offer_id);
+
+    @FormUrlEncoded
+    @POST("api/app/customer_notification")
+    Call<NotificationResponse> getCustomerSortedNotification(@Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("single_review.json")
+    Call<Reviews> getSingleReview(@Field("review_id") int review_id, @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("customer_reviews.json")
+    Call<List<Reviews>> getCustomerReview(@Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("single_liked_review.json")
+    Call<Reviews> getSingleLikedReview(@Field("like_id") int like_id, @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/news_feed.json")
+    Call<NewsFeedResponse> getV2Feeds(@Field("customer_id") String customer_id, @Query("page") int page);
+
+    @FormUrlEncoded
+    @POST("api/app/log_events")
+    Call<RoyaltyEvent> sendLogs(@Field("event") String event,
+                                @Field("event_value") String event_value,
+                                @Field("customer_id") String customer_id);
+
+
+    @GET("refer_bonus_partner.json")
+    Call<List<Coupon>> getReferCoupons();
+
+
+    @FormUrlEncoded
+    @POST("select_coupon.json")
+    Call<ServerResponse> selectCoupon(@Field("coupon_id") int coupon_id,
+                                      @Field("customer_id") String customer_id);
+
+
+    @GET("map.json")
+    Call<List<MapCollection>> getProximityData();
+
+
+    @Multipart
+    @POST("image_upload.json")
+    Call<ServerResponse> uploadImage(@Part MultipartBody.Part image);
+
+
+    @FormUrlEncoded
+    @POST("v2/create_user.json")
+    Call<ServerResponse> registerV2(@Field("first_name") String first_name,
+                                    @Field("last_name") String last_name,
+                                    @Field("email") String email,
+                                    @Field("phone") String phone,
+                                    @Field("fb_id") String fb_id,
+                                    @Field("gmail_id") String gmail_id,
+                                    @Field("password") String password,
+                                    @Field("image_url") String image_url);
+
+
+    @FormUrlEncoded
+    @POST("v2/update_dob.json")
+    Call<ServerResponse> updateBirthday(@Field("dob") String dob,
+                                        @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("api/app/getPincode")
+    Call<Pincode> getPincode(@Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/update_gender.json")
+    Call<ServerResponse> updateGender(@Field("customer_gender") String customer_gender,
+                                      @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/update_image.json")
+    Call<ServerResponse> updateProfileImage(@Field("image_url") String image_url,
+                                            @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("seen_notification.json")
+    Call<ServerResponse> notificationSeen(@Field("notification_id") String notification_id);
+
+    //Some confusion in between
+    @FormUrlEncoded
+    @POST("save_ftoken.json")
+    Call<ServerResponse> setFirebaseToken(@Field("customer_id") String customer_id,
+                                          @Field("firebase_token") String firebase_token);
+
+
+    @FormUrlEncoded
+    @POST("v2/insert_ssl_info.json")
+    Call<ServerResponse> insertSSLinformation(@Field("customer_id") String customer_id,
+                                              @Field("delivery_type") int delivery_type,
+                                              @Field("amount") int amount,
+                                              @Field("customer_type") int customer_type,
+                                              @Field("referral_number") String referral_number,
+                                              @Field("month") int month,
+                                              @Field("promo_id") int promo_id);
+
+    @FormUrlEncoded
+    @POST("api/renew/insert")
+    Call<ServerResponse> renewInformation(@Field("customer_id") String customer_id,
+                                          @Field("delivery_type") int delivery_type,
+                                          @Field("amount") int amount,
+                                          @Field("month") int month,
+                                          @Field("promo_id") int promo_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/checkCardPromo.json")
+    Call<CardPromoCodeResponse> checkPromoCode(@Field("code") String code,
+                                               @Field("card_price") int card_price,
+                                               @Field("renew") int renew,
+                                               @Field("month") int month);
+
+    @FormUrlEncoded
+    @POST("api/app/checkReferralCode.json")
+    Call<ServerResponse> checkReferralCode(@Field("customer_id") String customer_id,
+                                           @Field("referral_number") String referral_number);
+
+    @FormUrlEncoded
+    @POST("failed_ssl_info.json")
+    Call<ServerResponse> sslFailed(@Field("tran_id") String tran_id);
+
+    @FormUrlEncoded
+    @POST("api/virtual/user/create")
+    Call<ServerResponse> createVirtualUser(@Field("customer_id") String customer_id,
+                                           @Field("promo_id") Integer promo_id,
+                                           @Field("month") int month);
+
+
+    @FormUrlEncoded
+    @POST("update_ssl_info.json")
+    Call<ServerResponse> updateSSLinformation(@Field("customer_id") String customer_id,
+                                              @Field("tran_id") String tran_id,
+                                              @Field("amount") String amount,
+                                              @Field("tran_date") String tran_date,
+                                              @Field("val_id") String val_id,
+                                              @Field("store_amount") String store_amount,
+                                              @Field("card_type") String card_type,
+                                              @Field("currency") String currency,
+                                              @Field("card_no") String card_no,
+                                              @Field("bank_tran_id") String bank_tran_id,
+                                              @Field("card_issuer") String card_issuer,
+                                              @Field("card_brand") String card_brand,
+                                              @Field("card_issuer_country") String card_issuer_country,
+                                              @Field("card_issuer_country_code") String card_issuer_country_code,
+                                              @Field("currency_amount") String currency_amount,
+                                              @Field("month") int month);
+
+    @FormUrlEncoded
+    @POST("api/renew/success")
+    Call<ServerResponse> renewSSLinformation(@Field("customer_id") String customer_id,
+                                             @Field("tran_id") String tran_id,
+                                             @Field("amount") String amount,
+                                             @Field("tran_date") String tran_date,
+                                             @Field("val_id") String val_id,
+                                             @Field("store_amount") String store_amount,
+                                             @Field("card_type") String card_type,
+                                             @Field("currency") String currency,
+                                             @Field("card_no") String card_no,
+                                             @Field("bank_tran_id") String bank_tran_id,
+                                             @Field("card_issuer") String card_issuer,
+                                             @Field("card_brand") String card_brand,
+                                             @Field("card_issuer_country") String card_issuer_country,
+                                             @Field("card_issuer_country_code") String card_issuer_country_code,
+                                             @Field("currency_amount") String currency_amount);
+
+
+    @GET("share_review.json")
+    Call<ServerResponse> getReviewLink(@Query("id") String id);
+
+
+    @GET("v2/share_post.json")
+    Call<ServerResponse> getPostLink(@Query("id") int id, @Query("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/toFilterPartners.json")
+    Call<FilterPartnerResponse> getPartnersToFilter(@Field("category") String category);
+
+
+    @GET("logout.json")
+    Call<ServerResponse> logout(@Query("customer_id") String customer_id);
+
+
+    @GET("partner_logout.json")
+    Call<ServerResponse> partner_logout(@Query("partner_account_id") String partner_account_id);
+
+
+    @GET("filter_area.json")
+    Call<AreaResponse> getFilterArea();
+
+
+    @FormUrlEncoded
+    @POST("api/invite/friend")
+    Call<ServerResponse> getInvitationMessage(@Field("customer_id") String customer_id);
+
+    @FormUrlEncoded
+    @POST("api/v3/reset/phone/pin")
+    Call<ServerResponse> resetPinViaPhone(@Field("phone") String phone);
+
+
+    @FormUrlEncoded
+    @POST("v2/verify_email.json")
+    Call<ServerResponse> verifyEmail(@Field("email") String email, @Field("customer_id") String customer_id, @Field("prev_email") String prev_email);
+
+
+    @FormUrlEncoded
+    @POST("send_activation_code.json")
+    Call<ServerResponse> sendActivationCode(@Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("card_activate.json")
+    Call<ServerResponse> activeCard(@Field("code") String code, @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("reset_password_phone.json")
+    Call<ServerResponse> resetPasswordViaPhone(@Field("reset_phone") String reset_phone);
+
+
+    @FormUrlEncoded
+    @POST("v2/partner_branch_list.json")
+    Call<List<PartnerBranch>> branchList(@Field("partner_account_id") int partner_account_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/partner.json")
+    Call<PartnerBranch> getBranchProfile(@Header("platform") int platform,
+                                         @Field("branch_id") int branch_id,
+                                         @Field("customer_id") String customer_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/partner_gallery.json")
+    Call<List<GalleryImage>> getPartnerGallery(@Field("branch_id") int branch_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/nearby_partners.json")
+    Call<NearByPartnerResponse> getNearByPartners(@Field("branch_id") int branch_id, @Query("page") int page);
+
+    @FormUrlEncoded
+    @POST("api/app/get_branch_offers")
+    Call<PartnerOffers> getBranchOffers(@Field("branch_id") int branch_id,
+                                        @Field("customer_id") String customer_id,
+                                        @Field("with_deal") Boolean with_deal,
+                                        @Query("page") int page);
+
+    @FormUrlEncoded
+    @POST("api/branch-vouchers")
+    Call<PartnerDeal> getBranchDeals(@Field("branch_id") int branch_id,
+                                     @Field("customer_id") String customer_id,
+                                     @Query("page") int page);
+
+    @FormUrlEncoded
+    @POST("api/app/customer_nearby")
+    Call<NearByPartnerResponse> getCustomerNearByPartners(@Field("long") double longitude,
+                                                          @Field("lat") double latitude,
+                                                          @Query("page") int page);
+
+
+    @FormUrlEncoded
+    @POST("v2/partner_menu.json")
+    Call<List<MenuImage>> getPartnerMenu(@Field("branch_id") int branch_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/partner_discounts.json")
+    Call<List<Discount>> getPartnerDiscounts(@Field("branch_id") int branch_id);
+
+
+    @FormUrlEncoded
+    @POST("v2/partner_reviews.json")
+    Call<ReviewResponseMain> getPartnerReviews(@Field("branch_id") int branch_id, @Field("customer_id") String customer_id, @Query("page") int page);
+
+    @FormUrlEncoded
+    @POST("api/app/getReviewLikes")
+    Call<ReviewLikeResponse> getReviewLikeList(@Field("review_id") int review_id, @Query("page") int page);
+
+    @FormUrlEncoded
+    @POST("api/app/getPostLikes")
+    Call<ReviewLikeResponse> getPostLikeList(@Field("post_id") int post_id, @Query("page") int page);
+
+
+    @FormUrlEncoded
+    @POST("v2/user_reviews.json")
+    Call<ReviewResponse> getUserReviews(@Field("customer_id") String customer_id, @Query("page") int page);
+
+
+    @FormUrlEncoded
+    @POST("v2/user_visited_list.json")
+    Call<VisitResponse> getUserVisits(@Field("customer_id") String customer_id, @Query("page") int page);
+
+
+    @GET("prices.json")
+    Call<PricesResponse> getPrices();
+
+    @GET("api/app/minCardValue")
+    Call<MinCardPrices> getMinCardPrice();
+
+    @FormUrlEncoded
+    @POST("api/app/getCardDetails")
+    Call<List<Prices>> getCardList(@Field("card_name") String card_name);
+
+    @FormUrlEncoded
+    @POST("api/app/incluencerUsage")
+    Call<InfluencerModel> getUsageData(@Field("customer_id") String customer_id, @Query("page") int page);
+
+    @GET("app_version.json")
+    Call<Version> checkVersion();
+
+    @FormUrlEncoded
+    @POST("api/spot_purchase_from_user")
+    Call<ServerResponse> makeRoyaltyPremiumViaSeller(@Field("promo_id") int promo_id,
+                                                     @Field("card_amount") int card_amount,
+                                                     @Field("customer_id") String customer_id,
+                                                     @Field("month") int month,
+                                                     @Field("seller_id") int seller_id,
+                                                     @Field("platform") int platform);
+
+    //-------------------------------------Version 3 Starts here---------------------------------------//
+
+    @FormUrlEncoded
+    @POST("api/v3/customer")
+    Call<CustomerData> getCustomer(@Field("phone") String phone);
+
+    @FormUrlEncoded
+    @POST("api/v3/stats/account_kit/create")
+    Call<AccountKitStat> createAccountKitStat(@Field("phone") String phone);
+
+    @FormUrlEncoded
+    @POST("api/v3/stats/account_kit/update")
+    Call<AccountKitStat> updateAccountKitStat(@Field("id") int id,
+                                              @Field("status") int status,
+                                              @Field("phone") String phone);
+
+    @FormUrlEncoded
+    @POST("api/v3/pin/update")
+    Call<Pincode> updatePin(@Field("customer_id") String customer_id,
+                            @Field("pin") String pin);
+
+    @FormUrlEncoded
+    @POST("api/v3/auth/check")
+    Call<Boolean> matchCredentials(@Field("customer_id") String customer_id,
+                                   @Field("type") int type,
+                                   @Field("value") String value);
+
+    @FormUrlEncoded
+    @POST("api/v3/customer/create")
+    Call<CustomerData> createCustomer(@Header("platform") int platform,
+                                      @Field("name") String name,
+                                      @Field("email") String email,
+                                      @Field("phone") String phone,
+                                      @Field("pin") String pin,
+                                      @Field("refer_code") String code);
+
+    @FormUrlEncoded
+    @POST("api/v3/transaction/request")
+    Call<Request> createTransactionRequest(@Field("customer_id") String customer_id,
+                                           @Field("redeem_id") Integer redeem_id,
+                                           @Field("offer_id") int offer_id);
+
+    @FormUrlEncoded
+    @POST("api/user/points/royalty")
+    Call<Integer> getRoyaltyPoints(@Field("customer_id") String customer_id);
+
+    @FormUrlEncoded
+    @POST("api/user/points")
+    Call<CustomerAllPoints> getAllPoints(@Field("customer_id") String customer_id,
+                                         @Field("life_time") Boolean life_time);
+
+    @FormUrlEncoded
+    @POST("api/encrypt/spot-sell")
+    Call<String> getQrCode(@Field("enc_txt") String data);
+
+    @GET("/?format=json")
+    Call<IpAddress> getMyIp();
+
+    @FormUrlEncoded
+    @POST("api/session/login/create")
+    Call<LoginSession> createSession(@Field("customer_id") String customer_id, @Field("platform") Integer platform, @Field("physical_address") String physical_address,
+                                     @Field("ip_address") String ip_address, @Field("status") Integer status);
+
+    @FormUrlEncoded
+    @POST("api/session/login/check")
+    Call<LoginSession> checkSession(@Field("customer_id") String customer_id, @Field("platform") Integer platform, @Field("physical_address") String physical_address,
+                                    @Field("ip_address") String ip_address, @Field("version") String version);
+
+    @FormUrlEncoded
+    @POST("api/v3/customer/verify/email/send")
+    Call<ServerResponse> sendEmailVerification(@Field("email") String email,
+                                               @Field("customer_id") String customer_id,
+                                               @Field("prev_email") String prev_email);
+
+    @FormUrlEncoded
+    @POST("api/v3/customer/verify/email/check")
+    Call<ServerResponse> checkEmailVerification(@Field("email") String email,
+                                                @Field("pin") String pin);
+
+    @FormUrlEncoded
+    @POST("api/v3/customer/verify/phone/send")
+    Call<ServerResponse> sendOtp(@Field("phone") String phone,
+                                 @Field("verification_type") int verification_type);
+
+    @FormUrlEncoded
+    @POST("api/v3/customer/verify/phone/check")
+    Call<ServerResponse> verifyOtpOverPhone(@Field("phone") String phone,
+                                            @Field("pin") String pin,
+                                            @Field("verification_type") int verification_type);
+
+    @FormUrlEncoded
+    @POST("api/notifications/mark/all")
+    Call<Integer> markAllNotifications(@Field("customer_id") String customer_id);
+
+    @FormUrlEncoded
+    @POST("api/stat/search")
+    Call<SearchStat> createSearchStat(@Field("customer_id") String customer_id, @Field("branch_id") Integer branch_id, @Field("key") String key);
+
+    @FormUrlEncoded
+    @POST("api/v3/membership/prices")
+    Call<List<CardPrices>> getCardPrices(@Field("platform") int platform,
+                                         @Field("type") int type);
+
+    @FormUrlEncoded
+    @POST("api/rewards/add/profile_point")
+    Call<Integer> addProfileCompletingPoints(@Field("customer_id") String customer_id);
+
+    @FormUrlEncoded
+    @POST("api/v3/checkScannerPin")
+    Call<ScannerPin> checkScannerPin(@Field("branch_id") int branch_id,
+                                     @Field("pin") String pin);
+
+    @FormUrlEncoded
+    @POST("api/v3/offer_transaction")
+    Call<OfferTransaction> confirmOfferTransaction(@Field("customer_id") String customer_id,
+                                                   @Field("offer_id") int offer_id,
+                                                   @Field("redeem_id") Integer redeem_id,
+                                                   @Field("guid") String guid,
+                                                   @Field("branch_user_id") int branch_user_id);
+
+    //    Deals
+    @FormUrlEncoded
+    @POST("api/vouchers")
+    Call<DealsResponse> getAllDeals(@Field("category") String category,
+                                    @Query("page") int page);
+
+    @FormUrlEncoded
+    @POST("api/voucher/insert")
+    Call<ServerResponse> goToSslWithDeal(@Field("customer_id") String customer_id,
+                                         @FieldMap Map<String, String> params,
+                                         @Field("credit_used") boolean credit_used);
+
+    @FormUrlEncoded
+    @POST("api/voucher/success")
+    Call<ServerResponse> dealSslSuccess(@Field("customer_id") String customer_id,
+                                        @Field("tran_id") String tran_id,
+                                        @Field("amount") String amount,
+                                        @Field("tran_date") String tran_date,
+                                        @Field("val_id") String val_id,
+                                        @Field("store_amount") String store_amount,
+                                        @Field("card_type") String card_type,
+                                        @Field("currency") String currency,
+                                        @Field("card_no") String card_no,
+                                        @Field("bank_tran_id") String bank_tran_id,
+                                        @Field("card_issuer") String card_issuer,
+                                        @Field("card_brand") String card_brand,
+                                        @Field("card_issuer_country") String card_issuer_country,
+                                        @Field("card_issuer_country_code") String card_issuer_country_code,
+                                        @Field("currency_amount") String currency_amount);
+
+    @FormUrlEncoded
+    @POST("api/purchased_vouchers")
+    Call<PurchaseResponse> getAllPurchasedDeals(@Field("customer_id") String customer_id,
+                                                @Field("type") String type,
+                                                @Query("page") int page);
+
+    @FormUrlEncoded
+    @POST("api/sort-vouchers")
+    Call<DealsResponse> getSortedDeals(@Field("category") String category,
+                                       @Field("area") String area,
+                                       @Field("price") String price,
+                                       @Field("rating") Integer rating,
+                                       @Query("page") int page);
+
+    @FormUrlEncoded
+    @POST("api/avail_voucher")
+    Call<ServerResponse> confirmDealTransaction(@Field("customer_id") String customer_id,
+                                                @Field("purchase_id") int purchase_id,
+                                                @Field("branch_user_id") int branch_user_id);
+
+
+    @FormUrlEncoded
+    @POST("api/user/voucher_refund_request")
+    Call<ServerResponse> refundVoucher(@Field("comment") String comment,
+                                       @Field("customer_id") String customer_id,
+                                       @Field("purchase_id") Integer purchase_id);
+
+    @FormUrlEncoded
+    @POST("api/voucher/purchase_details")
+    Call<PurchasedDeals> getPurchasedVoucherDetails(@Field("purchase_id") Integer purchase_id);
+
+    @GET("api/categories")
+    Call<List<CategoryList>> getMainCategory();
+
+    @GET("api/homepage_link")
+    Call<List<DynamicLinks>> getDynamicLinks();
+
+}

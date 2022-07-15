@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){var r=a(".square").length;for(i=0;i<r;i++){var e=a(".square").eq([i]),u=a(".square2").eq([i]),t=e.attr("data-image"),g=u.attr("data-image");e.css("background-image","url("+t+")"),u.css("background-image","url("+g+")")}});

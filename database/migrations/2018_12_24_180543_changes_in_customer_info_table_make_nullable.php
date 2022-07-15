@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class ChangesInCustomerInfoTableMakeNullable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('customer_info', function (Blueprint $table) {
+            $table->string('customer_profile_image')->change()->nullable();
+            $table->string('customer_gender')->change()->nullable();
+            $table->string('customer_dob')->change()->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('customer_info', function (Blueprint $table) {
+            //
+        });
+    }
+}

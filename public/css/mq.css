@@ -1,0 +1,1376 @@
+@media only screen and (min-width:1200px) and (max-width:6000px) {
+	#smartbanner {
+		display: none;
+	}
+	.card-img-top {
+		height: 250px;
+	}
+}
+
+@media only screen and (max-width:1200px) {
+	.category-list {
+		width: 12%;
+		padding-bottom: 10px;
+	}
+	.offer-category {
+		margin-top: 10px;
+		padding: 10px;
+	}
+}
+
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+	#smartbanner {
+		display: none;
+	}
+	#myCarouselPhone {
+		padding-top: 58px !important;
+	}
+	.abt-box {
+		padding: 20px !important;
+	}
+	#myCarouselPhone .carousel-inner {
+		height: 414px !important;
+	}
+	.price-card-info-box {
+		padding: 10px;
+	}
+	.pp-img {
+		height: unset !important;
+	}
+	.joinbtn {
+		float: unset !important;
+	}
+	.nearby-pp {
+		height: unset !important;
+	}
+	.transparent {
+		height: 115px !important;
+		padding: 10px !important;
+	}
+	.cat_benefits_left {
+		height: 90px !important;
+	}
+	.popup-offer {
+		top: 60% !important;
+	}
+	.offer-img {
+		height: 95px !important;
+	}
+	.top-transactions-amount,
+	.top-users-amount,
+	.top-followers-reviews {
+		width: unset !important;
+	}
+	.white-panel {
+		height: 300px !important;
+	}
+	.edit-phone-num input {
+		padding: 5px;
+	}
+	.details {
+		font-size: 0.9em;
+	}
+	.card-img-top {
+		height: 250px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+	.pp-img {
+		height: unset !important;
+	}
+	.offers {
+		padding-right: 15px !important;
+	}
+	.offers-refer-block {
+		min-height: 0 !important;
+	}
+	.popup-offer {
+		top: 60% !important;
+	}
+	.brand h4 {
+		font-size: 12px !important;
+	}
+	.partner_category_type {
+		font-size: 10px !important;
+	}
+	#panel5,
+	#panel6 {
+		text-align: center !important;
+	}
+	.image-left {
+		float: unset !important;
+	}
+	.nearby-pp {
+		height: unset !important;
+	}
+	.joinbtn {
+		float: unset !important;
+	}
+	.offer-img {
+		height: 95px !important;
+	}
+	.white-panel {
+		height: 300px !important;
+	}
+	.edit-phone-num input {
+		padding: 5px;
+	}
+	.details {
+		font-size: 0.9em;
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	#myCarouselPhone {
+		padding-top: 57px;
+	}
+	#myCarouselPhone .carousel-inner {
+		height: 414px;
+	}
+	.price-card-box {
+		padding: 20px;
+	}
+	.offers {
+		padding-right: 15px !important;
+	}
+	.offers-refer-block {
+		min-height: 0 !important;
+	}
+	.abt-box,
+	.abt-box-cont {
+		padding: 15px !important;
+	}
+	.brand h4 {
+		font-size: 12px !important;
+	}
+	.partner_category_type {
+		font-size: 11px !important;
+	}
+	.transparent {
+		padding: 5px !important;
+		height: 100px !important;
+	}
+	.cat_benefits_left {
+		height: 70px !important;
+	}
+	.partner-account-dashboard-membership-span2 {
+		font-size: 28px !important;
+	}
+	.dashboard-col-text {
+		font-size: 10px !important;
+	}
+	.top-transactions-amount,
+	.top-users-amount,
+	.top-followers-reviews {
+		width: unset !important;
+	}
+	.card-img-top {
+		height: 250px;
+	}
+}
+
+@media only screen and (max-width:991px) {
+	.navbar-form .form-group{
+		width: 98%;
+	}
+	.navbar-form .form-control{
+		width: 99%;
+	}
+	.frmSearch {
+		margin: 0 5px 0 5px!important;
+	}
+	.border {
+		border-right: unset !important;
+	}
+	.logbox-inner {
+		padding: 30px !important;
+	}
+	.what-are-we,
+	.how-does-it-work,
+	.public-guest-card {
+		padding: 10px 0 !important;
+	}
+	.price-card-info {
+		padding: unset
+	}
+	/* .price-card-info-box {
+		text-align: center;
+	} */
+	.pricing-header {
+		font-size: 20px;
+	}
+	.file-marker {
+		width: 220% !important;
+	}
+	.trending-search-box {
+		margin-top: 10px;
+	}
+	.partner-profile-opening-hours-table {
+		width: 50% !important;
+	}
+	.pp-img {
+		height: unset !important;
+	}
+	.about-us-about-image,
+	.about-us-our-team-image {
+		float: unset !important;
+	}
+	.round-edge-left,
+	.round-edge-right {
+		display: none;
+	}
+	.about-us-description-right,
+	.about-us-description-left {
+		margin: 20px;
+		text-align: justify;
+	}
+	.partner-benefits-reasons-image {
+		display: none !important;
+	}
+	.cat_text {
+		padding: unset !important;
+	}
+	.cat_left_block,
+	.cat_right_block {
+		padding: unset !important;
+	}
+	.acc-navbar {
+		position: unset !important;
+	}
+	.user-profile-picture {
+		float: unset !important;
+	}
+	.user-profile-info {
+		bottom: 250px !important;
+	}
+	.banner h1 {
+		letter-spacing: unset !important;
+	}
+	.recent_trans_followers {
+		margin-top: 10px;
+	}
+	.g-p-info {
+		margin-top: 10px;
+	}
+	.follow_b1 {
+		text-align: unset;
+	}
+	.table {
+		padding: 5px;
+	}
+	.coupon-header {
+		display: none;
+	}
+	.coupon-address {
+		white-space: unset;
+	}
+	.app-pop-row .col-md-12 p {
+		margin-bottom: unset;
+	}
+	.pop-img {
+		display: none;
+	}
+	.offers-leftbar {
+		padding-right: 0;
+	}
+	.page_loader img {
+		left: 45% !important;
+	}
+	.partner-info {
+		padding: 5px !important;
+	}
+	.partner-rating-box {
+		padding: 15px !important;
+	}
+	.box img {
+		height: 261px !important;
+	}
+	.edit-phone-btn button,
+	.new-pass-update button {
+		margin: 5px 0 !important;
+		float: right;
+	}
+	.refer-middle-box {
+		margin-top: -20px !important;
+	}
+	.careers-category {
+		padding: 5px !important;
+	}
+	.card-img-top {
+		height: 200px;
+	}
+	.account-refer-img {
+		width: 15%;
+	}
+	.tooltip1 {
+		top: -5px !important;
+	}
+	.top-transactions-details-container img,
+	.top-users-details-container img,
+	.top-followers-details-container img {
+		width: 40% !important;
+	}
+	.activity-feed {
+		/* margin: 10px 0 30px 30px; */
+	}
+	.explore-partner-info {
+		margin-left: 10px!important;
+	}
+}
+
+@media (max-width:768px) {
+	.navbar-form .form-group{
+		width: 98%;
+	}
+	.navbar-form .form-control{
+		width: 99%;
+	}
+	.respon1 {
+		padding-left: 15px;
+		padding-right: 15px;
+		max-width: 450px;
+		margin: 0 auto;
+	}
+	.underc-icon li {
+		margin: 0 3px;
+	}
+	.login-box{
+		width: 80%!important;
+	}
+	.login-box-element {
+		padding: 15px!important;
+	}
+}
+
+@media only screen and (max-width:767px) {
+
+	.header-app-download-text,
+	.header-app-download-text a {
+		color: white;
+		padding: 0 10px;
+	}
+	.user-tooltip {
+		top: -35px;
+	}
+	.navbar-nav {
+		margin: 7.5px 0 !important;
+	}
+	/* .navbar-form {
+		padding: 10px 15px;
+		border: unset;
+	} */
+	.name-dropdown{
+		width: unset!important;
+	}
+	.media {
+		margin: 30px;
+	}
+	#regForm {
+		margin: 5px auto!important;
+    width: 100% !important;
+	}
+	.offer-img-s {
+		width: 8%!important;
+	}
+	.search-trending-container {
+		margin-top: 30px;
+	}
+	.edit-pin-btn {
+		margin: 5px;
+	}
+	.pricing-features {
+		margin: unset!important;
+	}
+	.pricing-features-item {
+		padding: 10px 0!important;
+	}
+	.pricing-price {
+		font-size: 20px!important;
+	}
+	.pricing-button {
+		margin: 10px 0!important;
+		padding: 10px 15px!important;
+	}
+}
+
+@media (min-width:480px) and (max-width:767px) {
+	.payment-method .online-pay,
+	.payment-method .online-pay-1 {
+		float: left;
+	}
+	.what-are-we,
+	.how-does-it-work,
+	.public-guest-card {
+		padding: 10px 0 !important;
+	}
+	figcaption p {
+		display: none !important;
+	}
+	.refer-container .refer-btn {
+		right: 5%!important;
+	}
+	.popup {
+		width: 90% !important;
+	}
+	.app-download-links {
+		margin-top: 5px;
+	}
+	.file-marker {
+		width: 220% !important;
+	}
+	.offers {
+		margin-top: 10px !important;
+		padding-right: 15px !important;
+	}
+	.offer-img {
+		height: 180px !important;
+	}
+	.about-us-about-image,
+	.about-us-our-team-image {
+		float: unset !important;
+	}
+	.abt-img {
+		width: 10% !important;
+	}
+	.partner-benefits-container {
+		text-align: center;
+	}
+	.partner-benefits-reasons-image {
+		display: none !important;
+	}
+	.category_block {
+		display: none !important;
+	}
+	.category-icon-right p,
+	.category-icon-left p {
+		display: none !important;
+	}
+	.fa-4x {
+		display: none !important;
+	}
+	.acc-navbar {
+		position: unset !important;
+	}
+	
+	#panel5,
+	#panel6 {
+		text-align: center !important;
+	}
+	.image-left {
+		float: unset !important;
+		margin-right: unset !important;
+	}
+	.transaction-sort {
+		margin-top: 5px;
+		text-align: center;
+	}
+	.partner-offer-timings p {
+		position: relative;
+	}
+	.partner-reply-partner-image img,
+	.reviewer-profile-image {
+		width: 20% !important;
+	}
+	.review-section {
+		margin-top: 3% !important;
+	}
+	.w3-light-grey {
+		margin-left: 50% !important;
+	}
+	.partner-profile-review-share-container {
+		position: inherit !important;
+		width: 100% !important;
+	}
+	.partner-reply-container {
+		margin: 5px 0 0 120px !important;
+		padding: 35px !important;
+		width: 81% !important;
+	}
+	.partner_reply_name {
+		margin-bottom: 0 !important;
+	}
+	.nearby-pp {
+		height: unset !important;
+	}
+	.user-profile-info {
+		text-align: center !important;
+		bottom: unset !important;
+	}
+	.user-profile-picture {
+		float: unset !important;
+	}
+	.cpn-img {
+		float: unset !important;
+	}
+	.stat {
+		font-size: 13px !important;
+	}
+	.teams {
+		margin: 2%;
+	}
+	.team_image {
+		text-align: center;
+	}
+	.team_image img {
+		width: 40% !important;
+	}
+	.careers-category {
+		padding: 10px !important;
+	}
+	.job-details-page {
+		margin: 50px;
+	}
+	#f1_container {
+		margin-bottom: 170px !important;
+	}
+	.profile-card {
+		display: none !important;
+	}
+	.tabrow {
+		margin-top: unset !important;
+	}
+	.customer-acc-profile-image {
+		width: 50% !important;
+	}
+	.banner h1 {
+		letter-spacing: 1px !important;
+	}
+	.partner-name-newsfeed {
+		margin-top: 3px !important;
+	}
+	.user-account-newsfeed-share-container {
+		margin-top: -12px !important;
+	}
+	.customer-acc-info-table,
+	.customer-acc-info-table-header2,
+	th {
+		text-align: center !important;
+	}
+	.partner-account-star-image-dashboard {
+		width: 60% !important;
+	}
+	.partner-account-partner-image-dashboard {
+		width: 25% !important;
+	}
+	.gold_offer {
+		padding-bottom: 5px !important;
+	}
+	.top-transactions-details-container img,
+	.top-users-details-container img,
+	.top-followers-details-container img {
+		width: 35% !important;
+	}
+	.recent-followers-body,
+	.partner-account-dashboard-top-followers-body,
+	.partner-account-dashboard-top-users-body,
+	.partner-account-dashboard-top-transactions-body {
+		text-align: center !important;
+	}
+	.recent-followers-container {
+		margin-bottom: 10px !important;
+	}
+	.partner-followers-name {
+		text-align: center;
+	}
+	.ls_profile_details {
+		text-align: center !important;
+	}
+	.fb {
+		width: unset !important;
+	}
+	.snapchat {
+		width: unset !important;
+	}
+	.faq-header-title {
+		font-size: 30px !important;
+	}
+	.refer_circle_img {
+		width: 12% !important;
+	}
+	.co-info p.tel,
+	.co-info p.adr {
+		display: block;
+	}
+	.field-icon {
+		margin-top: -23px;
+	}
+	.card-img-top {
+		height: 200px;
+	}
+	.account-refer-img {
+		width: 20%;
+	}
+	.payment-method .online-pay {
+		float: left;
+	}
+	.payment-method .cod {
+		float: left;
+	}
+}
+
+@media (min-width:600px) and (max-width:767px) {
+	.online-pay {
+		margin-right: 10px;
+	}
+}
+
+@media only screen and (max-width:599px) {
+	#small-search{
+		margin-right: 40px;
+	}
+	.how-it-works-video {
+		display: none;
+	}
+	.logbox {
+		margin: 50px 0 !important;
+	}
+	.logbox-inner {
+		padding: 15px !important;
+	}
+	.offer-img-s {
+		width: 15% !important;
+	}
+	.pricing-list-btn {
+		margin-top: 10px;
+	}
+	#preloader img {
+		width: 25% !important;
+		left: 40% !important;
+	}
+	.what-are-we,
+	.how-does-it-work,
+	.public-guest-card {
+		padding: 10px 0 !important;
+	}
+	.what-are-we p {
+		padding: 5px 10px !important;
+	}
+	.how-does-it-work .col-sm-4 {
+		padding: 10px 20px !important;
+	}
+	.trending-subbox-container-search {
+		padding: 5px 10px !important;
+	}
+	.refer-container .refer-btn {
+		right: 1%!important;
+	}
+	#popup {
+		display: none !important;
+	}
+	figcaption p {
+		display: none !important;
+	}
+	.division-bd:hover figcaption {
+		text-align: center !important;
+		padding: unset !important;
+	}
+	.pp-img {
+		height: unset !important;
+	}
+	.partner-box-info-span {
+		font-size: 12px;
+	}
+	.app-display {
+		display: none;
+	}
+	.banner_top_image_caption span {
+		font-size: 13px;
+	}
+	.category-name {
+		font-size: 0.9em;
+	}
+	.login-wrap {
+		min-height: 740px !important;
+	}
+	.offers {
+		margin-top: 10px !important;
+		padding-right: 15px !important;
+	}
+	.offer-img {
+		display: none;
+	}
+	.offer-img-s {
+		display: inline;
+	}
+	.about-us-about-image,
+	.about-us-our-team-image {
+		float: unset !important;
+	}
+	.nearby-pp {
+		height: unset !important;
+	}
+	.partner-benefits-reasons-image {
+		display: none !important;
+	}
+	.category-icon-right p,
+	.category-icon-left p {
+		display: none !important;
+	}
+	.fa-4x {
+		display: none !important;
+	}
+	.category_block {
+		display: none !important;
+	}
+	#panel5,
+	#panel6 {
+		text-align: center !important;
+	}
+	.image-left {
+		float: unset !important;
+	}
+	.transaction-sort {
+		margin-top: 5px;
+		text-align: center;
+	}
+	.teams {
+		margin: 2%;
+	}
+	.careers-category {
+		padding: 10px !important;
+	}
+	.job-details-page {
+		margin: 50px;
+	}
+	#f1_container {
+		margin-bottom: 50px !important;
+	}
+	.partner-profile-nav-box .nav-pills>li a {
+		padding: 7px 19px !important;
+		font-size: 14px !important;
+		/* font-weight: 500 !important;
+		border-bottom: none !important; */
+	}
+	.partner-reply-partner-image img,
+	.reviewer-profile-image {
+		width: 30% !important;
+	}
+	.review-section {
+		margin-top: 3% !important;
+	}
+	.w3-light-grey {
+		margin-left: 50% !important;
+	}
+	.partner-profile-review-share-container {
+		position: inherit !important;
+		width: 100% !important;
+	}
+	.partner-reply-container {
+		margin: 5px 0 0 120px !important;
+		padding: 35px !important;
+		width: 70% !important;
+	}
+	.partner_reply_name {
+		margin-bottom: 0 !important;
+	}
+	.profile-card {
+		display: none !important;
+	}
+	.user-profile-info {
+		bottom: unset !important;
+	}
+	.tabrow {
+		margin-top: unset !important;
+	}
+	.customer-acc-profile-image {
+		width: 35% !important;
+	}
+	.banner h1 {
+		letter-spacing: 1px !important;
+	}
+	.thumb {
+		width: unset !important;
+	}
+	.partner-name-newsfeed {
+		margin-top: 3px !important;
+	}
+	.user-account-newsfeed-share-container {
+		margin-top: -12px !important;
+	}
+	.customer-acc-info-table,
+	.customer-acc-info-table-header2,
+	th {
+		text-align: center !important;
+	}
+	.acc-email-icon {
+		width: 60% !important;
+	}
+	.online-pay {
+		margin-right: 10px;
+	}
+	.partner-account-partner-image-dashboard {
+		width: 30% !important;
+	}
+	.gold_offer {
+		padding-bottom: 5px !important;
+	}
+	.partner-account-star-image-dashboard {
+		width: 60% !important;
+	}
+	.top-transactions-details-container img,
+	.top-users-details-container img,
+	.top-followers-details-container img {
+		width: 55% !important;
+	}
+	.recent-followers-body,
+	.partner-account-dashboard-top-followers-body,
+	.partner-account-dashboard-top-users-body,
+	.partner-account-dashboard-top-transactions-body,
+	.personal-info-details-container {
+		text-align: center !important;
+	}
+	.recent-followers-container {
+		margin-bottom: 10px !important;
+	}
+	.ls_profile_details {
+		text-align: center !important;
+	}
+	.fb {
+		width: unset !important;
+	}
+	.faq-header-title {
+		font-size: 25px !important;
+	}
+	.refer_circle_img {
+		width: 20% !important;
+	}
+	.co-info p.adr {
+		display: inherit;
+	}
+	.social-boxes a {
+		width: 29px;
+	}
+	.social-boxes {
+		margin-right: 6px;
+	}
+	.cpn-img {
+		float: unset !important;
+	}
+	.category-list {
+		width: 32%;
+	}
+	.home-category-img {
+		padding: 4px 0 !important;
+	}
+	.home-category-name {
+		font-size: 0.8em;
+	}
+	.how-does-it-work .far,
+	.how-does-it-work .fas {
+		font-size: 2em !important;
+	}
+}
+
+@media only screen and (max-width:479px) {
+	.popup {
+		width: 90% !important;
+	}
+	.what-are-we,
+	.how-does-it-work,
+	.public-guest-card {
+		padding: 10px 0 !important;
+	}
+	.refer-container .refer-btn {
+		right: 1%!important;
+		padding: 5px;
+	}
+	.subscribe #subscribe {
+		text-indent: 2px !important;
+	}
+	.partner-box-info-rating {
+		float: unset;
+		margin-bottom: 15px;
+	}
+	.star-f-icon:before,
+	.star-e-icon:before,
+	.star-h-icon:before {
+		font-size: 15px !important;
+	}
+	.cus-carousel .testimonial {
+		padding: unset;
+	}
+	.cus-carousel .testimonial::before {
+		display: none;
+	}
+	.media {
+		margin: 0 0 10px 0;
+	}
+	.price-card-info-box {
+		padding: unset;
+	}
+	.referral-popup {
+		width: 200px !important;
+		height: 120px !important;
+	}
+	figcaption p {
+		display: none !important;
+	}
+	.division-bd:hover figcaption {
+		text-align: center !important;
+		padding: unset !important;
+	}
+	..partner-box-info-span {
+		font-size: 12px;
+	}
+	.pp-img {
+		height: unset !important;
+	}
+	.earn-head {
+		font-size: unset !important;
+	}
+	.app-display {
+		display: none;
+	}
+	.ftr .col-md-12 p {
+		font-size: 0.9em;
+	}
+	.offers {
+		margin-top: 10px !important;
+		padding-right: 15px !important;
+	}
+	.offer-img-s{
+		display: inline;
+	}
+	.nearby-pp {
+		height: unset !important;
+	}
+	.about-us-about-image,
+	.about-us-our-team-image {
+		float: unset !important;
+	}
+	.brand h4 {
+		font-size: 12px !important;
+	}
+	.partner_category_type {
+		font-size: 11px !important;
+	}
+	.dl .discount {
+		font-size: 40px !important;
+		padding: 0 15px !important;
+	}
+	.partner-benefits-reasons-image {
+		display: none !important;
+	}
+	.category-icon-right p,
+	.category-icon-left p {
+		display: none !important;
+	}
+	.fa-4x {
+		display: none !important;
+	}
+	.login-container {
+		margin-top: 85px;
+	}
+	.acc-navbar {
+		position: unset !important;
+	}
+	.user-acc-stat-img {
+		width: 80% !important;
+	}
+	#panel5,
+	#panel6 {
+		text-align: center !important;
+	}
+	.transaction-sort {
+		margin-top: 5px;
+		text-align: center;
+	}
+	.user-profile-info {
+		text-align: center !important;
+		bottom: unset !important;
+	}
+	.user-profile-picture {
+		float: unset !important;
+	}
+	.stat {
+		font-size: 10px !important;
+	}
+	.registration-selected-type-container h3 {
+		font-size: 18px;
+	}
+	.teams {
+		margin: 2%;
+	}
+	.team_image {
+		text-align: center;
+	}
+	.team_image img {
+		width: 40% !important;
+	}
+	.careers-category {
+		padding: 10px !important;
+	}
+	.job-details-page {
+		margin: 50px;
+	}
+	#f1_container {
+		margin-bottom: 50px !important;
+	}
+	.partner-offer-timings p {
+		position: relative;
+	}
+	.partner-profile-overall-percentage {
+		width: 40px !important;
+	}
+	.image-left {
+		float: unset !important;
+		margin-right: unset !important;
+	}
+	.user-acc-user-follow {
+		text-align: center !important;
+	}
+	.partner-reply-partner-image img,
+	.reviewer-profile-image {
+		width: 30% !important;
+	}
+	.review-section {
+		margin-top: 3% !important;
+	}
+	.w3-light-grey {
+		margin-left: 50% !important;
+	}
+	.partner-profile-review-share-container {
+		position: inherit !important;
+		width: 100% !important;
+	}
+	.partner-reply-container {
+		margin: 5px 0 0 120px !important;
+		padding: 35px !important;
+		width: 70% !important;
+	}
+	.partner_reply_name {
+		margin-bottom: 0 !important;
+	}
+	.profile-card {
+		display: none !important;
+	}
+	.tabrow {
+		margin-top: unset !important;
+	}
+	.customer-acc-profile-image {
+		width: 50% !important;
+	}
+	.banner h1 {
+		letter-spacing: 1px !important;
+	}
+	.partner-name-newsfeed {
+		margin-top: 3px !important;
+	}
+	.partner-account-partner-image-dashboard {
+		width: 30% !important;
+	}
+	.gold_offer {
+		padding-bottom: 5px !important;
+	}
+	.partner-account-star-image-dashboard {
+		width: 60% !important;
+	}
+	.top-transactions-details-container img,
+	.top-users-details-container img,
+	.top-followers-details-container img {
+		width: 55% !important;
+	}
+	.recent-followers-container {
+		margin-bottom: 10px !important;
+	}
+	.partner-followers-name {
+		text-align: center;
+	}
+	.thumb {
+		width: unset !important;
+	}
+	.ls_profile_details {
+		text-align: center !important;
+	}
+	.fb {
+		width: unset !important;
+	}
+	.refer_circle_img {
+		width: 17% !important;
+	}
+	.social-button a {
+		height: 40px !important;
+		width: 40px !important;
+		padding-top: 8px !important;
+	}
+	.card-head {
+		font-size: 13px !important;
+	}
+	/* .whitebox {
+		margin: 20px !important;
+	} */
+	.card_months {
+		margin-right: 50px;
+	}
+	#registration_soflow {
+		font-size: 11px;
+	}
+	.social-boxes a {
+		width: 19px !important;
+	}
+	.field-icon {
+		margin-top: -23px;
+	}
+	.phone-num {
+		font-size: 0.8em;
+	}
+	.social-buttons {
+		font-size: 1.1em;
+	}
+	.card-img-top {
+		height: 150px;
+	}
+	.partner-profile-opening-hours-table {
+		width: 65% !important;
+	}
+	.underc-icons li {
+		margin: 0 10px;
+	}
+	.partner-offer-timings p:after {
+		display: none !important;
+	}
+	.partner-rating-box {
+		padding: 5px !important;
+	}
+	.alloffer-offerdetail {
+		font-size: smaller;
+	}
+}
+
+@media only screen and (max-width:378px) {
+	.popup {
+		width: 70% !important;
+	}
+	.what-are-we,
+	.how-does-it-work,
+	.public-guest-card {
+		padding: 10px 0 !important;
+	}
+	.price-card-box {
+		padding: 19px
+	}
+	.trending-top {
+		margin-bottom: unset !important;
+		margin-top: unset !important;
+	}
+	.refer-container .refer-btn {
+		right: 1%!important;
+		transform: translate(-30%, -60%) !important;
+		padding: 5px;
+		font-size: 15px;
+	}
+	.pp-img {
+		height: unset !important;
+	}
+	.earn-head {
+		font-size: unset !important;
+	}
+	#subscribe {
+		padding: 3px 5px 3px;
+	}
+	.followbtn,
+	.unfollowbtn {
+		margin-top: 5px !important;
+	}
+	.offer-img-s{
+		display: inline;
+	}
+	.discount-info-box,
+	.image-box {
+		height: 250px !important;
+	}
+	.nearby-pp {
+		height: unset !important;
+	}
+	.partner-offer-timings p {
+		display: block;
+		position: relative;
+	}
+	.user-acc-stat-img {
+		width: 60% !important;
+	}
+	.activation-text h5 {
+		margin-left: 10px;
+	}
+	.edit-phone-num input {
+		font-size: 0.8em;
+	}
+	#upload-cropped-image {
+		height: 120px !important;
+		width: 120px !important;
+	}
+	.social-button a {
+		height: 35px !important;
+		width: 35px !important;
+		padding-top: 5px !important;
+	}
+	.card_price {
+		font-size: 14px !important;
+	}
+	.details {
+		padding: 20px 0 !important;
+	}
+	.careers-category {
+		padding: 10px !important;
+	}
+	.social-boxes {
+		margin-right: 2px !important;
+	}
+	.field-icon {
+		margin-top: -23px;
+	}
+	.phone-num {
+		font-size: 0.8em;
+	}
+	.nearby-details-title {
+		width: 77px;
+	}
+	.underc-icons i {
+		font-size: 17px;
+	}
+	#regForm {
+		min-width: 280px;
+	}
+	.sign-up-content input {
+		padding: 16px 10px 16px 110px;
+	}
+	.wrong_pin {
+		margin-top: unset;
+	}
+}
+
+@media only screen and (max-width:400px) {
+	.emoji-picker-icon {
+		top: 58% !important;
+	}
+	.price-card-box-type {
+		font-size: 0.9em;
+	}
+	.price-card-box-value {
+		top: 9px;
+		left: -65px;
+	}
+}
+
+@media only screen and (max-width:359px) {
+	.what-are-we,
+	.how-does-it-work,
+	.public-guest-card {
+		padding: 10px 0 !important;
+	}
+	.price-card-box-line {
+		width: 70%;
+	}
+	.price-card-box-value {
+		top: 14px;
+	}
+	.refer-container .refer-btn {
+		right: 1%!important;
+	}
+	.category-name {
+		font-size: 0.7em;
+	}
+	.login-wrap {
+		min-height: 780px !important;
+	}
+	.nearby-details-title {
+		width: 57px;
+	}
+	.partner_info .col-md-2 img {
+		width: 100px !important;
+		height: 100px !important;
+	}
+	.underc-icons i {
+		font-size: 9px;
+	}
+	.home-category-img {
+		padding: 5px 2px !important;
+	}
+	.home-category-name {
+		font-size: 0.8em;
+	}
+	.checkout-step-body img {
+		width: 30%;
+	}
+	.social-boxes a {
+		width: 19px !important;
+		height: unset;
+		line-height: unset;
+	}
+}
+
+@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) {
+	.tagline p {
+		font-size: 0.7em !important;
+	}
+}
+
+@media only screen and (device-width:375px) and (device-height:667px) and (-webkit-device-pixel-ratio:2) {
+	.tagline p {
+		font-size: 0.7em !important;
+	}
+}
+
+@media only screen and (device-width:414px) and (device-height:736px) and (-webkit-device-pixel-ratio:3) {
+	.tagline p {
+		font-size: 0.7em !important;
+	}
+}
+
+@media only screen and (min-device-width:375px) and (max-device-width:667px) and (-webkit-min-device-pixel-ratio:2) {
+	.tagline p {
+		font-size: 0.7em !important;
+	}
+}
+
+@media (max-width:767px) {
+	.navbar-reverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #fff !important;
+	}
+	.navbar-reverse .navbar-nav .open .dropdown-menu>li>a:focus,
+	.navbar-reverse .navbar-nav .open .dropdown-menu>li>a:hover {
+		color: #ffc107 !important;
+	}
+}
+
+@media only screen and (min-width:320px) and (max-width:479px) {
+	.card h2 {
+		font-size: 50px;
+		margin-top: 0;
+	}
+	.card hr {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width:479px) and (max-width:599px) {
+	.card h2 {
+		font-size: 75px;
+	}
+}
+
+@media only screen and (min-width:991px) and (max-width:1200px) {
+	.card h2 {
+		font-size: 80px;
+	}
+}
+
+@media (min-width:992px) {
+	#small-search {
+		display: none;
+	}
+}
+
+@media (max-width:991px) {
+	#searchForm{
+		display: none;
+	}
+}
+
+@media only screen and (max-width:1900px) {
+	.grid {
+		grid-template-columns: 100%;
+		grid-row-gap: 50px;
+	}
+}

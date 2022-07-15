@@ -1,8 +1,6 @@
 
 ![Logo](https://royalty-bd.s3-ap-southeast-1.amazonaws.com/static-images/square_blue_gold_logo1.png)
 
-# privilege platform Verion 2.0
-
 ## About this platform
 
 The first dedicated privilege platform in Bangladesh. Discover discounts & offers from hotels, restaurants, spas, salons and many more. Pay less, enjoy more!
